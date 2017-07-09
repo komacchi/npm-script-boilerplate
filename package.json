@@ -1,0 +1,22 @@
+{
+  "name": "dev-npm-script",
+  "version": "1.0.0",
+  "description": "npm-script-boiler-template",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css"
+  },
+  "author": "komacchi",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "csswring": "^6.0.0",
+    "postcss": "^6.0.6",
+    "postcss-cli": "^4.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.0.2",
+    "postcss-simple-vars": "^4.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylelint": "^7.12.0"
+  }
+}
