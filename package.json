@@ -4,12 +4,14 @@
   "description": "npm-script-boiler-template",
   "main": "index.js",
   "scripts": {
-    "postcss": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css"
+    "build:css": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css",
+    "watch:css": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css -w"
   },
   "author": "komacchi",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.12",
     "csswring": "^6.0.0",
     "postcss": "^6.0.6",
     "postcss-cli": "^4.1.0",
@@ -19,6 +21,7 @@
     "postcss-nested": "^2.0.2",
     "postcss-reporter": "^4.0.0",
     "postcss-simple-vars": "^4.0.0",
+    "postcss-utilities": "^0.7.0",
     "pug-cli": "^1.0.0-alpha6",
     "stylelint": "^7.12.0"
   }

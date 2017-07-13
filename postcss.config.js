@@ -7,6 +7,7 @@ module.exports = (ctx) => ({
     require('postcss-nested')(),
     require('postcss-reporter')(),
     require('postcss-simple-vars')(),
+    require('postcss-utilities')(),
     require('autoprefixer')(),
     require('csswring')()
   ]
