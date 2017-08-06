@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:css": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css",
-    "watch:css": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css -w"
+    "watch:css": "postcss -c postcss.config.js src/pcss/main.css -o dist/css/main.css -w",
+    "bsync": "browser-sync start --server --serveStatic dist --files 'dist/css/*.css, dist/js/*.js, **/*.html'"
   },
   "author": "komacchi",
   "license": "ISC",
